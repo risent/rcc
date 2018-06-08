@@ -3,6 +3,6 @@ project(rcc)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror")
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES rcc.c)
 
 add_executable(rcc ${SOURCE_FILES})
